@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxsm0qdr23hpj"]
+
+[ext_resource type="PackedScene" uid="uid://cwg8wxd1oagl3" path="res://player.tscn" id="1_47yg7"]
+
+[node name="World" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_47yg7")]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Godot icon is 128 by 128
+Script expects grid of 150 x 150"
